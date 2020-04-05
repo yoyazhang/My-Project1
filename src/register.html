@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+    <link href="../CSS/reset.css" rel="stylesheet">
+    <link href="../CSS/Registry.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>TRAVEL TO SHARE</h1>
+    <div class = "slogan">See the World outside!</div>
+</header>
+<main>
+    <h2>We have been waiting for you long!</h2>
+    <form method="post" action="#">
+        <fieldset>
+            <legend>REGISTER</legend>
+            <div class="user">
+                <label>
+                    <img class="icon" src="../images/icons/用户.png">USER:
+                    <input type="text" name="username" required>
+                </label>
+            </div>
+            <div class="email">
+                <label>
+                    <img class="icon" src="../images/icons/邮箱.png">EMAIL:
+                    <input type="email" name="email" required>
+                </label>
+            </div>
+            <div class="password">
+                <label>
+                    <img class="icon" src="../images/icons/密码.png">PASSWORD:
+                    <input type="password" name="password" required>
+                </label><br>
+            </div>
+            <div class="password">
+                <label>
+                    PASSWORD DOUBLE-CHECK:
+                    <input type="password" name="password2" required>
+                </label>
+            </div>
+            <input type="submit" name="registrySubmit" value="SUBMIT" onclick="window.location.href='../index.html';">
+        </fieldset>
+    </form>
+</main>
+<footer>
+    <div class="information">YoYa Zhang版权所有 &copy 2019-2020</div>
+    <div class="easterEgg">沪公网安备19302010074号</div>
+    <address>Email: <a href = "http://mail.fudan.edu.cn/">19302010074@fudan.edu.cn</a></address>
+</footer>
+</body>
+</html>

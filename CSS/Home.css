@@ -1,0 +1,93 @@
+main{
+    text-align: center;
+}
+section.topPic{
+    text-align: center;
+}
+section.topPic>figure img{
+    width: 83%;
+}
+section.topPic>figure figcaption{
+    margin-top: 1.5%;
+}
+section.topPic>figure figcaption a{
+    font-family: "Ink Free", sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+figcaption a:link, figcaption a:visited{
+    color: #13227a;
+}
+figcaption a:hover{
+    color: #d4237a;
+}
+section.homePics{
+    width: 90%;
+    margin-left: 7%;
+}
+table{
+    width: 95%;
+    margin: 2%;
+}
+td{
+    width: 30%;
+    padding: 1%;
+}
+td>figure{
+    width: 75%;
+    height: 100%;
+    border: 0.1rem lightgrey solid;
+    border-radius: 0.8rem;
+    padding: 3%;
+    margin-bottom: 5%;
+}
+td figure img{
+    width: auto;
+    max-width: 100%;
+}
+td>figure>figcaption{
+    margin-top: 6%;
+}
+td>figure>figcaption>h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #13227a;
+}
+div.homePicInfo{
+    line-height: 1.3;
+    margin-top: 2%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: #d4237a;
+}
+aside{
+    bottom: 10.4%;
+    position: fixed;
+    float: right;
+    display: flow;
+    margin-left: 74%;
+}
+aside button{
+    display: block;
+    margin: 7%;
+    border-radius: 0.6rem;
+}
+footer{
+    background-color: rgb(59, 59, 59);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.2vw;
+}
+footer a{
+    color: whitesmoke;
+}
+footer a:hover{
+    color: #d4237a;
+}
+footer div.easterEgg,footer address,div.introduction{
+     display: block;
+     margin: 0;
+}
