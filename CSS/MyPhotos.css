@@ -11,12 +11,15 @@ div.myPic{
     border: 0.1rem lightgrey solid;
     border-radius: 0.8rem;
 }
-div.myPic>figure>figcaption,div.myPic>figure>a>img{
+div.myPic>figure>figcaption,div.myPic>figure>div.PicWrapper{
     display: inline-block;
     vertical-align: top;
 }
 div.myPic>figure{
     padding: 2% 2% 0;
+}
+div.PicWrapper{
+    width: 20%;
 }
 figure img{
     width: auto;
@@ -31,7 +34,7 @@ figure figcaption{
     padding-bottom: 1%;
 }
 figcaption div.myPicTopic{
-    font-size: 1.9rem;
+    font-size: 2.3vw;
     color: #13227a;
     font-weight: bold;
     margin-bottom: 3%;
@@ -46,15 +49,16 @@ figcaption div.description{
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     text-indent: 2em;
-    font-size: 1.3rem;
+    font-size: 1.6vw;
 }
 input[type="button"]{
     color: whitesmoke;
     background-color: #d4237a;
     width: 24%;
-    height: 42px;
     border-radius: 0.6rem;
-    font-size: 1.3rem;
+    font-size: 1.6vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
     float: right;
     margin: 3% -10% 0 15%;
 }
@@ -63,12 +67,10 @@ input[name="modify"]{
 }
 input[name="modify"]:hover{
     background-color: #182fa7;
-    font-size: 1.4rem;
 }
 input[name="delete"]{
     background-color: #d4237a;
 }
 input[name="delete"]:hover{
     background-color: #f0248d;
-    font-size: 1.4rem;
 }

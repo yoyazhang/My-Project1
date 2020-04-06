@@ -8,73 +8,50 @@ div.picture>figure>img{
     width: auto;
     max-width: 100%;
 }
-div.PicTitle{
-    margin-left: 5%;
-    color: #13227a;
-    font-size: 1.9rem;
-    font-weight: bold;
-}
-div.PicTitle>p{
-    margin-left: 5%;
-    width: 140%;
-    color: #d4237a;
-    font-size: 1.6rem;
-    margin-right: 0;
-    padding: 5%;
-}
-div.PicTheme{
-    margin-left: 5%;
-    color: #13227a;
-    font-size: 1.9rem;
-    font-weight: bold;
-}
-div.PicTheme>p{
-    margin-left: 5%;;
-    color: #d4237a;
-    font-size: 1.6rem;
-    padding: 5%;
-}
 div.PicDetails{
-    margin: 10px;
+    margin: 1%;
+    width: 100%;
 }
 div.PicDetails>h3{
     color: #13227a;
     font-weight: bold;
-    font-size: 1.9rem;
+    font-size: 2.8vw;
     margin-left: 5%;
 }
 div.PicDetails>p{
+    width: 100%;
     color: #d4237a;
     margin-left: 5%;
     padding: 5%;
-    font-size: 1.6rem;
+    font-size: 2vw;
     line-height: 1.2;
     font-weight: bold;
 }
 div.PicDescription{
-    margin: 0 5% 5%;
+    margin: 0 3.5% 3.5%;
 }
 div.PicDescription>h3{
     color: #13227a;
     font-weight: bold;
-    font-size: 1.9rem;
+    font-size: 2.8vw;
     margin-bottom: 1.3%;
 }
 div.PicDescription>p{
     text-indent: 2rem;
     line-height: 1.3;
-    font-size: 1.3rem;
+    font-size: 1.8vw;
 }
 input[type="button"]{
     color: whitesmoke;
     background-color: #d4237a;
-    font-size: 1.2rem;
+    font-size: 1.8vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
     width: 20%;
-    height: 50px;
     border-radius: 0.7rem;
     margin-left: 70%;
     margin-bottom: 1%;
 }
 input[type="button"]:hover{
-    font-size: 1.4rem;
+   background-color: #e52388;
 }

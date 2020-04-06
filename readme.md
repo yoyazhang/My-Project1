@@ -7,7 +7,7 @@
 ## 地址
 ----
 Github地址：https://github.com/yoyazhang/My-Project1<br>
-Github Pages地址：<br>
+Github Pages地址：https://yoyazhang.github.io/My-Project1/index.html<br>
 ## 项目完成情况
 ----
 自认为完成了！（叉腰）<br>
@@ -18,10 +18,12 @@ Github Pages地址：<br>
 ## bonus完成情况
 ----
 ### 响应式设计
-布局里面基本全部改成了百分比，字体用vw，图片用{width: auto; max-width:100%}的格式就能保证基本不会变形，但是还存在一点小问题。<br>
+布局里面基本全部改成了百分比，字体用vw，图片用{width: auto; max-width:100%}的格式就能保证基本不会变形。<br>
+对于myphotos等页面也实现了图片和字体一起缩小，不会发生换行以至于右边一大条空白的问题。<br>
+但是还存在一点小问题。<br>
 + 没有对平板和手机设计专门的样式，所以可以想见，在手机上的字体恐怕会比较小。
-+ 对于内容不足时如何填充满整个屏幕的问题，注册页面的通过flex布局解决了，但使用的前提时有header、main和footer，首页的设计header和main
-能保证不变形
++ 对于内容不足时如何填充满整个屏幕的问题，注册页面的通过flex布局解决了，但使用的前提时有header、main和footer；<br>
+其余测试的时候发现页面过小时还是会有撑不满（主要是upload页面和browser页面）。在尝试对首页的整体布局做同样的调整时，惊恐地发现导航栏没了（罢了 罢了.jpg)
 ### 图片剪裁
 尝试了多种方式,但感觉都不是很满意：<br>
 1. 直接设width和height为150px，这样就和给的square里的图一样大了，但是不可避免地会变形，这显然不可能是正确的解决方案（吧？万一是感觉错亿）。<br>

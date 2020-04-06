@@ -18,44 +18,47 @@ div.favoritePic>figure>figcaption,div.favoritePic>figure>a>img{
 div.favoritePic>figure{
     padding: 2%;
 }
+figure div.PicWrapper, figure figcaption{
+    display: inline-block;
+}
+figure div.PicWrapper{
+    width: 20%;
+}
 figure img{
     width: auto;
     max-width: 100%;
 }
 figure figcaption{
-    width: 60%;
-    margin-left: 3%;
-    height: 100%;
+    width: 70%;
+    margin-left: 1%;
 }
 figcaption div.favorPicTopic{
-    font-size: 2.1rem;
+    font-size: 2.8vw;
     color: #13227a;
     font-weight: bold;
     margin-bottom: 2%;
 }
 figcaption div.description{
-    width: 120%;
-    height: 100%;
+    width: 110%;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-indent: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.7vw;
 }
 input[type="button"]{
     color: whitesmoke;
     background-color: #d4237a;
     width: 17%;
-    height: 42px;
     border-radius: 0.6rem;
     font-size: 1.8vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
     margin-left: 75%;
-    margin-top: -10%;
-    margin-bottom: -5%;
+    margin-top: -5%;
 }
 input[type="button"]:hover{
     background-color: #f0248d;
-    font-size: 2vw;
 }
