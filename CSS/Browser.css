@@ -122,11 +122,12 @@ section.results tr{
     padding: 1%;
 }
 section.results td{
+    width: auto;
     padding: 2%;
 }
-td img{
-    width: auto;
-    max-width: 100%;
+td img.normalPic{
+    object-fit: cover;
+    width: 100%;
 }
 nav.pageNumber{
     padding-bottom: 1%;

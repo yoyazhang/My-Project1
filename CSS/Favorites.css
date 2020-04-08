@@ -24,9 +24,9 @@ figure div.PicWrapper, figure figcaption{
 figure div.PicWrapper{
     width: 20%;
 }
-figure img{
-    width: auto;
-    max-width: 100%;
+figure img.normalPic{
+    object-fit: cover;
+    width: 100%;
 }
 figure figcaption{
     width: 70%;
