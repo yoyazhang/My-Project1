@@ -37,6 +37,7 @@ div#FilterSearch{
     border: 0.06rem solid lightgrey;
     border-radius: 0.6rem;
     margin-bottom: 7%;
+    white-space: nowrap;
 }
 input[type="text"]{
     padding-left: 0.5%;
@@ -48,7 +49,7 @@ input[type="submit"]{
     font-size: 1.3vw;
     font-weight: bold;
     color: #d4237a;
-    width: 27%;
+    width: 28%;
     border-bottom-right-radius: 0.6rem;
 }
 div#HotContent{
@@ -124,10 +125,6 @@ section.results tr{
 section.results td{
     width: auto;
     padding: 2%;
-}
-td img.normalPic{
-    object-fit: cover;
-    width: 100%;
 }
 nav.pageNumber{
     padding-bottom: 1%;

@@ -21,10 +21,6 @@ div.myPic>figure{
 div.PicWrapper{
     width: 20%;
 }
-figure img.normalPic{
-    object-fit: cover;
-    width: 100%;
-}
 figure figcaption{
     margin-left: 1%;
     margin-right: 0;
@@ -39,6 +35,11 @@ figcaption div.myPicTopic{
     font-weight: bold;
     margin-bottom: 3%;
 }
+@media (max-width: 768px){
+    figcaption div.myPicTopic{
+        font-size: 3.5vw;
+    }
+}
 figcaption div.description{
     width: 114%;
     height: 20%;
@@ -51,6 +52,12 @@ figcaption div.description{
     text-indent: 2em;
     font-size: 1.6vw;
 }
+@media (max-width: 768px){
+    figcaption div.description{
+        font-size: 2.4vw;
+        -webkit-line-clamp: 3;
+    }
+}
 input[type="button"]{
     color: whitesmoke;
     background-color: #d4237a;
@@ -61,6 +68,11 @@ input[type="button"]{
     padding-bottom: 1%;
     float: right;
     margin: 3% -10% 0 15%;
+}
+@media (max-width: 768px){
+    input[type="button"]{
+        font-size: 2.3vw;
+    }
 }
 input[name="modify"]{
     background-color: #13227a;

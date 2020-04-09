@@ -15,6 +15,11 @@ section.topPic>figure figcaption a{
     font-size: 1.8vw;
     font-weight: bold;
 }
+@media (max-width: 768px) {
+    section.topPic > figure figcaption a {
+        font-size: 2.5vw;
+    }
+}
 figcaption a:link, figcaption a:visited{
     color: #13227a;
 }
@@ -33,6 +38,11 @@ td{
     width: 30%;
     padding: 1%;
 }
+@media (max-width: 768px){
+    td{
+        width: 32%;
+    }
+}
 td>figure{
     width: 75%;
     height: 100%;
@@ -41,10 +51,6 @@ td>figure{
     padding: 3%;
     margin-bottom: 5%;
 }
-img.normalPic{
-    object-fit: cover;
-    width: 100%;
-}
 td>figure>figcaption{
     margin-top: 6%;
 }
@@ -52,6 +58,11 @@ td>figure>figcaption>h3{
     font-size: 1.8vw;
     font-weight: bold;
     color: #13227a;
+}
+@media (max-width: 768px) {
+    td>figure>figcaption>h3{
+        font-size: 3vw;
+    }
 }
 div.homePicInfo{
     line-height: 1.3;
@@ -64,6 +75,11 @@ div.homePicInfo{
     color: #d4237a;
     font-size: 1.4vw;
 }
+@media (max-width: 768px) {
+    div.homePicInfo{
+        font-size: 2.3vw;
+    }
+}
 aside{
     bottom: 10.4%;
     position: fixed;
@@ -72,14 +88,20 @@ aside{
     margin-left: 74%;
 }
 aside button{
-    width: 27%;
+    width: 30%;
     display: block;
-    margin: 7%;
+    margin: 6%;
     border-radius: 0.6rem;
 }
 aside button img{
     width: auto;
     max-width: 100%;
+}
+@media (max-width: 768px){
+    aside button{
+        width: 28%;
+        margin-left: 70%;
+    }
 }
 footer{
     background-color: rgb(59, 59, 59);

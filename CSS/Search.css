@@ -2,7 +2,7 @@ section{
     margin-left: auto;
     margin-right: auto;
     padding-top: 2%;
-    width: 80%;
+    width: 100%;
     background-color: whitesmoke;
 }
 fieldset{
@@ -25,7 +25,6 @@ label#TitleSearch,input[type="text"]{
 label#DescriptionSearch,textarea{
     display: block;
 }
-
 label{
      color: #13227a;
      font-size: 1.8vw;
@@ -34,13 +33,22 @@ label{
      margin-right: 0;
      margin-top: 2%;
      width: 100%;
- }
-
+}
+@media (max-width: 768px){
+    label{
+        font-size: 2.4vw;
+    }
+}
 input[type="text"]{
     margin-top: 2%;
     width: 100%;
     font-size: 1.4vw;
     padding-left: 0.5%;
+}
+@media (max-width: 768px){
+    input[type="text"]{
+        font-size: 2.2vw;
+    }
 }
 textarea{
     margin-right: 0;
@@ -51,20 +59,30 @@ textarea{
     font-size: 1.4vw;
     padding-left: 0.5%;
 }
+@media (max-width: 768px){
+    textarea{
+        font-size: 2.2vw;
+    }
+}
 input[type="submit"]{
     color: whitesmoke;
     background-color: #d4237a;
     width: 20%;
-    height: 45px;
     border-radius: 0.6rem;
     font-size: 1.8vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
     float: right;
     margin-right: 4.3%;
     margin-top: 14.2%;
 }
+@media (max-width: 768px){
+    input[type="submit"]{
+        font-size: 2.4vw;
+    }
+}
 input[type="submit"]:hover{
     background-color: #e32485;
-    font-size: 1.9vw;
 }
 ul#SearchList{
     margin-left: auto;
@@ -89,10 +107,6 @@ div.SearchPic>figure{
 .PicWrapper{
     width: 20%;
 }
-figure img.normalPic{
-    object-fit: cover;
-    width: 100%;
-}
 figure figcaption{
     width: 70%;
     margin-left: 2%;
@@ -104,6 +118,11 @@ figcaption div.SearchPicTopic{
     font-weight: bold;
     margin-bottom: 2%;
     margin-top: 1%;
+}
+@media (max-width: 768px){
+    figcaption div.SearchPicTopic{
+        font-size: 4vw;
+    }
 }
 figcaption div.description{
     margin-top: 3%;
@@ -117,4 +136,10 @@ figcaption div.description{
     -webkit-box-orient: vertical;
     text-indent: 2em;
     font-size: 1.7vw;
+}
+@media (max-width: 768px){
+    figcaption div.description{
+        -webkit-line-clamp: 3;
+        font-size: 2.5vw;
+    }
 }

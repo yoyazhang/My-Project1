@@ -24,10 +24,6 @@ figure div.PicWrapper, figure figcaption{
 figure div.PicWrapper{
     width: 20%;
 }
-figure img.normalPic{
-    object-fit: cover;
-    width: 100%;
-}
 figure figcaption{
     width: 70%;
     margin-left: 1%;
@@ -38,15 +34,25 @@ figcaption div.favorPicTopic{
     font-weight: bold;
     margin-bottom: 2%;
 }
+@media (max-width: 768px){
+    figcaption div.favorPicTopic{
+        font-size: 4vw;
+    }
+}
 figcaption div.description{
     width: 110%;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     text-indent: 2rem;
     font-size: 1.7vw;
+}
+@media (max-width: 768px){
+    figcaption div.description{
+        font-size: 2.4vw;
+    }
 }
 input[type="button"]{
     color: whitesmoke;
@@ -58,6 +64,11 @@ input[type="button"]{
     padding-bottom: 1%;
     margin-left: 75%;
     margin-top: -5%;
+}
+@media (max-width: 768px){
+    input[type="button"]{
+        font-size: 2.5vw;
+    }
 }
 input[type="button"]:hover{
     background-color: #f0248d;
