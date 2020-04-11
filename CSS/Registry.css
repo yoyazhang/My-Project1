@@ -8,10 +8,11 @@ body{
     height: 100%;
     max-width: 55%;
     width: 55%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Candara, sans-serif;
 }
 header{
-    margin-left: 41%;
     background-color: rgb(59, 59, 59);
     flex: 0 0 auto;
     width: 100%;
@@ -28,7 +29,6 @@ div.slogan{
     padding-bottom: 2%;
 }
 main{
-    margin-left: 41%;
     width: 100%;
     flex: 1 0 auto;
     padding-top: 2%;
@@ -100,7 +100,6 @@ input[name="registrySubmit"]:hover{
 }
 footer{
     flex: 0 0 auto;
-    margin-left: 41%;
     text-align: center;
     width: 100%;
     background-color: #cacaca;
@@ -111,4 +110,29 @@ footer{
 footer div,footer address{
     display: inline;
     margin-right: 2%;
+}
+@media (max-width: 768px){
+    body{
+        max-width: 70%;
+        width: 70%;
+    }
+    header h1{
+        font-size: 7vw;
+        margin-bottom: 3%;
+    }
+    div.slogan{
+        font-size: 4vw;
+    }
+    main h2{
+        font-size: 4vw;
+    }
+    label{
+        font-size: 2.4vw;
+    }
+    input{
+        font-size: 2vw;
+    }
+    input[name="registrySubmit"]{
+        font-size: 2.4vw;
+    }
 }

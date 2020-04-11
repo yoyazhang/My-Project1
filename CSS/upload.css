@@ -49,7 +49,7 @@ div.wrap:hover{
 .wrap span{
      color: whitesmoke;
      font-size: 1.7vw;
- }
+}
 input[type="file"]{
     position:absolute;
     top:0;
@@ -76,7 +76,6 @@ label,textarea{
 }
 input[type="text"]{
     width: 90%;
-    height: 30px;
     font-size: 1.6vw;
     padding-left: 0.5%;
     margin-top: 1%;
@@ -103,4 +102,24 @@ input[type="button"]{
 }
 input[type="button"]:hover{
     background-color: #da2181;
+}
+@media (max-width: 768px){
+    legend{
+        font-size: 4vw;
+    }
+    .wrap span{
+        font-size: 2.5vw;
+    }
+    label{
+        font-size: 3vw;
+    }
+    input[type="text"]{
+        font-size: 2.6vw;
+    }
+    textarea{
+        font-size: 2.6vw;
+    }
+    input[type="button"]{
+        font-size: 2.5vw;
+    }
 }

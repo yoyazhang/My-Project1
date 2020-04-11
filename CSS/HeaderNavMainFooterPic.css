@@ -7,11 +7,6 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
-@media (max-width: 768px){
-    body{
-        width: 100%;
-    }
-}
 header{
     margin-right: auto;
     margin-left: auto;
@@ -30,32 +25,17 @@ div.title h1{
     padding-top: 4%;
     padding-left: 2%;
 }
-@media (max-width: 768px){
-    div.title h1{
-        font-size: 9vw;
-    }
-}
 div.slogan{
     display: inline;
     margin-left: 9%;
     font-size: 2.5vw;
     font-family: "Ink Free", sans-serif;
 }
-@media (max-width: 768px) {
-    div.slogan{
-        font-size: 2.8vw;
-    }
-}
 header nav{
     background-color: #e1e1e1;
     width: 100%;
     font-size: 2.5vw;
     overflow: hidden;
-}
-@media (max-width: 768px){
-    header nav{
-        font-size: 3.3vw;
-    }
 }
 a#currentPage{
     color: #d4237a;
@@ -84,12 +64,6 @@ li#theDoor:hover>ul{
     width: 11%;
     display: block;
 }
-@media (max-width: 768px){
-    li#theDoor:hover>ul{
-        width: 14%;
-        margin-left: 6%;
-    }
-}
 li#theDoor>ul>li{
     width: 100%;
     height: 30%;
@@ -100,11 +74,6 @@ li#theDoor>ul>li{
     border: solid #d12376;
     background-color: rgba(245, 245, 245, 0.57);
     vertical-align: bottom;
-}
-@media (max-width: 768px){
-    li#theDoor>ul>li{
-        font-size: 2.1vw;
-    }
 }
 li#theDoor>ul>li img.icon{
     width: auto;
@@ -142,4 +111,28 @@ footer div.easterEgg,footer address,div.information{
 img.normalPic{
     object-fit: cover;
     width: 100%;
+}
+@media (max-width: 768px){
+    body{
+        width: 100%;
+    }
+    div.title h1{
+        font-size: 9vw;
+    }
+    div.slogan{
+        font-size: 2.8vw;
+    }
+    header nav{
+        font-size: 3.3vw;
+    }
+    li#theDoor:hover>ul{
+        width: 14%;
+        margin-left: 6%;
+    }
+    li#theDoor>ul>li{
+        font-size: 2.1vw;
+    }
+    footer{
+        font-size: 1.6vw;
+    }
 }

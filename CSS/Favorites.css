@@ -10,6 +10,7 @@ div.favoritePic{
     height: 100%;
     border-radius: 0.7rem;
     border: lightgrey 0.1rem solid;
+    box-shadow: 5px 5px 3px #a9a9a9;
 }
 div.favoritePic>figure>figcaption,div.favoritePic>figure>a>img{
     display: inline-block;
@@ -34,11 +35,6 @@ figcaption div.favorPicTopic{
     font-weight: bold;
     margin-bottom: 2%;
 }
-@media (max-width: 768px){
-    figcaption div.favorPicTopic{
-        font-size: 4vw;
-    }
-}
 figcaption div.description{
     width: 110%;
     overflow: hidden;
@@ -48,11 +44,6 @@ figcaption div.description{
     -webkit-box-orient: vertical;
     text-indent: 2rem;
     font-size: 1.7vw;
-}
-@media (max-width: 768px){
-    figcaption div.description{
-        font-size: 2.4vw;
-    }
 }
 input[type="button"]{
     color: whitesmoke;
@@ -65,11 +56,17 @@ input[type="button"]{
     margin-left: 75%;
     margin-top: -5%;
 }
+input[type="button"]:hover{
+    background-color: #f0248d;
+}
 @media (max-width: 768px){
+    figcaption div.favorPicTopic{
+        font-size: 4vw;
+    }
+    figcaption div.description{
+        font-size: 2.4vw;
+    }
     input[type="button"]{
         font-size: 2.5vw;
     }
-}
-input[type="button"]:hover{
-    background-color: #f0248d;
 }

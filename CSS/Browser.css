@@ -35,12 +35,13 @@ aside li:last-of-type{
 div#FilterSearch{
     width: 100%;
     border: 0.06rem solid lightgrey;
+    box-shadow: 3px 3px 1px #c2c2c2;
     border-radius: 0.6rem;
     margin-bottom: 7%;
     white-space: nowrap;
 }
 input[type="text"]{
-    padding-left: 0.5%;
+    padding-left: 0.8%;
     font-size: 1.4vw;
     width: 69.5%;
     border-bottom-left-radius: 0.6rem;
@@ -55,18 +56,21 @@ input[type="submit"]{
 div#HotContent{
     width: 100%;
     border: 0.06rem solid lightgrey;
+    box-shadow: 3px 3px 1px #c2c2c2;
     border-radius: 0.6rem;
     margin-bottom: 7%;
 }
 div#HotCountry{
     width:100%;
     border: 0.06rem solid lightgrey;
+    box-shadow: 3px 3px 1px #c2c2c2;
     border-radius: 0.6rem;
     margin-bottom: 7%;
 }
 div#HotCity{
     width: 100%;
     border: 0.06rem solid lightgrey;
+    box-shadow: 3px 3px 1px #c2c2c2;
     border-radius: 0.6rem;
     margin-bottom: 7%;
 }
@@ -81,6 +85,7 @@ section.filter{
 fieldset{
     width: 100%;
     border: 0.06rem solid #d4237a;
+    box-shadow: 4px 4px 2px #c29dbb;
     border-radius: 0.6rem;
 }
 legend{
@@ -113,6 +118,7 @@ fieldset input[type="submit"]:hover{
 section.results{
     margin-bottom: 2%;
     border: 0.06rem solid #13227a;
+    box-shadow: 4px 4px 2px rgba(44, 50, 135, 0.62);
     border-radius: 0.6rem;
 }
 section.results table{
@@ -123,7 +129,7 @@ section.results tr{
     padding: 1%;
 }
 section.results td{
-    width: auto;
+    width: 20%;
     padding: 2%;
 }
 nav.pageNumber{
@@ -142,4 +148,29 @@ main nav img.icon{
     width: auto;
     max-width: 2%;
 }
-
+@media (max-width: 768px){
+    aside h2{
+        font-size: 2.6vw;
+    }
+    aside li{
+        font-size: 2.3vw;
+    }
+    input[type="text"]{
+        font-size: 1.8vw;
+    }
+    legend{
+        font-size: 3vw;
+    }
+    fieldset select{
+        font-size: 2.2vw;
+    }
+    fieldset input[type="submit"]{
+        font-size: 2.2vw;
+    }
+    nav.pageNumber{
+        font-size: 2.4vw;
+    }
+    main nav img.icon{
+        max-width: 2.5%;
+    }
+}

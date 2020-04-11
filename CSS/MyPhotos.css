@@ -10,6 +10,7 @@ div.myPic{
     height: 100%;
     border: 0.1rem lightgrey solid;
     border-radius: 0.8rem;
+    box-shadow: 5px 5px 3px #a9a9a9;
 }
 div.myPic>figure>figcaption,div.myPic>figure>div.PicWrapper{
     display: inline-block;
@@ -35,11 +36,6 @@ figcaption div.myPicTopic{
     font-weight: bold;
     margin-bottom: 3%;
 }
-@media (max-width: 768px){
-    figcaption div.myPicTopic{
-        font-size: 3.5vw;
-    }
-}
 figcaption div.description{
     width: 114%;
     height: 20%;
@@ -52,12 +48,6 @@ figcaption div.description{
     text-indent: 2em;
     font-size: 1.6vw;
 }
-@media (max-width: 768px){
-    figcaption div.description{
-        font-size: 2.4vw;
-        -webkit-line-clamp: 3;
-    }
-}
 input[type="button"]{
     color: whitesmoke;
     background-color: #d4237a;
@@ -68,11 +58,6 @@ input[type="button"]{
     padding-bottom: 1%;
     float: right;
     margin: 3% -10% 0 15%;
-}
-@media (max-width: 768px){
-    input[type="button"]{
-        font-size: 2.3vw;
-    }
 }
 input[name="modify"]{
     background-color: #13227a;
@@ -85,4 +70,16 @@ input[name="delete"]{
 }
 input[name="delete"]:hover{
     background-color: #f0248d;
+}
+@media (max-width: 768px){
+    figcaption div.myPicTopic{
+        font-size: 3.5vw;
+    }
+    figcaption div.description{
+        font-size: 2.4vw;
+        -webkit-line-clamp: 3;
+    }
+    input[type="button"]{
+        font-size: 2.3vw;
+    }
 }
